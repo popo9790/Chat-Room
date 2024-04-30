@@ -2,7 +2,7 @@
 
 ## ChatRoom 的主頁面
 
-![主頁面](https://hackmd.io/_uploads/rkjrhmA-C.png)
+![主頁面](https://i.imgur.com/MidCve1.png)
 
 大致可分成兩大區域：
 右側的 **1. User Area**
@@ -17,7 +17,7 @@
 
 ### 登入/用戶介面
 
-![Loging Pic](https://hackmd.io/_uploads/HJb3pL0WR.png)
+![Loging Pic](https://i.imgur.com/FTsnPpx.png)
 
 我的 Chat room 提供兩種登入方式。
 
@@ -28,10 +28,10 @@
    只需要按下「Google」即可跳轉 Google 驗證介面。
 
 下圖為登入後的畫面範例。
-![登入畫面截圖](https://hackmd.io/_uploads/S1x1j8Rb0.png)
+![登入畫面截圖](https://i.imgur.com/WEjtNOU.png)
 
 這裡可以選擇登出或者是進入 User Profile 設定。
-![User Profile](https://hackmd.io/_uploads/H1GTiUAbR.png)
+![User Profile](https://i.imgur.com/PzRJ60O.png)
 右下角的「編輯」可以開啟修改 **Bio** 或是 **用戶圖片** 的功能。
 左下角的返回即可返回 Chat Room。
 
@@ -39,7 +39,7 @@
 
 ### Room List
 
-![Room List](https://hackmd.io/_uploads/S16XTUAZA.png)
+![Room List](https://i.imgur.com/LMSCfGK.png)
 這裡會為每個用戶預設一個「Public」的聊天室，有沒有登入都可以看得到訊息。
 也可以在上方的輸入匡中**輸入特定的 Room name 並按下旁邊的笑臉圖案**創建、加入房間。
 
@@ -50,7 +50,7 @@ List 中比較亮的代表目前正在的聊天室，若要前往其他聊天室
 
 ## Chat Area
 
-![Chat Area](https://hackmd.io/_uploads/BJdh0IAZ0.png)
+![Chat Area](https://i.imgur.com/MADB80F.png)
 這個部分主要是 **輸入** 以及 **顯示訊息**。
 下方輸入匡輸入訊息之後按下「傳送」按鈕就可以送出訊息。
 若某訊息是該用戶傳送的，那將會在訊息的最右側出現 **「垃圾桶」** 圖示，按下即可刪除該訊息。
@@ -60,7 +60,7 @@ List 中比較亮的代表目前正在的聊天室，若要前往其他聊天室
 ## 其他額外功能
 
 這個聊天室提供消息通知，系統會推送用戶所在聊天室的最新訊息。
-![Notification](https://hackmd.io/_uploads/rJw7ev0ZC.png)
+![Notification](https://i.imgur.com/FPlQqK7.png)
 
 ## 將本檔案安裝在本地
 
