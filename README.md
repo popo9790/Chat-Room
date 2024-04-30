@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Midtern Homework Chat Room
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ChatRoom 的主頁面
 
-## Available Scripts
+![主頁面](https://hackmd.io/_uploads/rkjrhmA-C.png)
 
-In the project directory, you can run:
+大致可分成兩大區域：
+右側的 **1. User Area**
+左側的 **2. Chat Area**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## User Area
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+在 **User Area** 之中又可分為兩大區域：
+上方的 **登入/用戶介面** 區域 以及 下方的 **Room List** 區域。
 
-### `npm test`
+### 登入/用戶介面
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Loging Pic](https://hackmd.io/_uploads/HJb3pL0WR.png)
 
-### `npm run build`
+我的 Chat room 提供兩種登入方式。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 若選擇的是電子信箱登入：
+   左側為輸入 _帳號_ 以及 _密碼_ 的區域。 - 新用戶在輸入完帳號密碼之後需按下 **「NEW」** 先註冊才能登入。 - 舊用戶按下最上方的 **「登入」** 就可以登入。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. 若選擇 Google 登入：
+   只需要按下「Google」即可跳轉 Google 驗證介面。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+下圖為登入後的畫面範例。
+![登入畫面截圖](https://hackmd.io/_uploads/S1x1j8Rb0.png)
 
-### `npm run eject`
+這裡可以選擇登出或者是進入 User Profile 設定。
+![User Profile](https://hackmd.io/_uploads/H1GTiUAbR.png)
+右下角的「編輯」可以開啟修改 **Bio** 或是 **用戶圖片** 的功能。
+左下角的返回即可返回 Chat Room。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Room List
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Room List](https://hackmd.io/_uploads/S16XTUAZA.png)
+這裡會為每個用戶預設一個「Public」的聊天室，有沒有登入都可以看得到訊息。
+也可以在上方的輸入匡中**輸入特定的 Room name 並按下旁邊的笑臉圖案**創建、加入房間。
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+List 中比較亮的代表目前正在的聊天室，若要前往其他聊天室，點擊**右側的箭頭可以切換。**
+除了「Public」之外的聊天室都可以 **按下右側的「刪除」 退出聊天室。**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Chat Area
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Chat Area](https://hackmd.io/_uploads/BJdh0IAZ0.png)
+這個部分主要是 **輸入** 以及 **顯示訊息**。
+下方輸入匡輸入訊息之後按下「傳送」按鈕就可以送出訊息。
+若某訊息是該用戶傳送的，那將會在訊息的最右側出現 **「垃圾桶」** 圖示，按下即可刪除該訊息。
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 其他額外功能
 
-### Analyzing the Bundle Size
+這個聊天室提供消息通知，系統會推送用戶所在聊天室的最新訊息。
+![Notification](https://hackmd.io/_uploads/rJw7ev0ZC.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 將本檔案安裝在本地
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+輸入 `npm install` 就可以將 package.json 中所有的 dependencies 下載並安裝完成。
